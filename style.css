@@ -1,5 +1,71 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@300;500;900 & display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+header{
+    align-items: baseline;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_menu--mobile{
+    width: 8.8vw;
+    height: 8.2vh;
+    display: none;
+}
+
+header nav{
+    width: 40%;
+    font-size: 1.3rem;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+header li{
+    color: #9767A9;
+    font-weight: 500;
+    justify-content: space-evenly;
+}
+
+header li:hover{
+    cursor: pointer;
+    font-weight: 700;
+}
+
+header input{
+    margin-left: 70px;
+    padding: 10px;
+    border-color: #9767A9;
+    border-radius: 50px;
+    width: 213px;
+    height: 40px;
+    text-indent: 12%;
+}
+
+header input::placeholder{
+    background-image: url('img/img-lupa.png');
+    background-repeat: no-repeat;
+}
+
+.container_social--network{
+    display: flex;
+}
+
+.container_social--network figure{
+    width: 60px;
+    justify-content: space-around;
 }
